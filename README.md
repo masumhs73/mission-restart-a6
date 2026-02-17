@@ -4,7 +4,7 @@ Answer: undefined mane holo variable declare kora hoyeche kintu value assign kor
 2) What is the use of the map() function in JavaScript? How is it different from forEach()?
 Answer: map() hocche ekta array method. map() hocche every element er upor loop chalay kono change er command deya hole change kore notun array return kore but ager array te kono kichu change kore na. forEach() o ekta array method. forEach() shudhu element er upor loop chalay kintu kono kichu return kore na.
 
-3)What is the difference between == and ===?
+3) What is the difference between == and ===?
 Answer: == & === ei 2 tai value check korleo, == shudhu value check kore kintu === value check korar pashapashi type o check kore.
 
 4) What is the significance of async/await in fetching API data?
