@@ -181,25 +181,25 @@
 
     <!-- Footer section -->
 
-    <footer class="bg-gray-800 p-20 border-b-2">
-        <div class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3">
+    <footer class="bg-gray-800 p-12 border-b-2 text-white">
+        <div class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 border-b-2 border-gray-400 pb-6">
             <div class="first">
-                <h3>SwiftCart</h3>
-                <p>Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast delivery and excellent support.</p>
+                <h3 class="text-2xl text-blue-600 mb-3">SwiftCart</h3>
+                <p class="text-sm text-gray-400">Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast delivery and excellent support.</p>
             </div>
-            <div class="middle">
+            <div class="middle flex justify-between">
                 <div>
-                    <h4>QUICK LINKS</h4>
-                    <ul>
+                    <h4 class="font-bold mb-4">QUICK LINKS</h4>
+                    <ul class="text-gray-400 text-sm flex flex-col gap-4">
                         <li>Home</li>
                         <li>Products</li>
-                        <li>About/li>
+                        <li>About</li>
                         <li>Contact</li>
                     </ul>
                 </div>
                 <div>
-                    <h4>SUPPORT</h4>
-                    <ul>
+                    <h4 class="font-bold mb-4">SUPPORT</h4>
+                    <ul class="text-gray-400 text-sm flex flex-col gap-4">
                         <li>FAQ</li>
                         <li>Shipping</li>
                         <li>Returns</li>
@@ -208,19 +208,31 @@
                 </div>
             </div>
             <div>
-                <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-                <P>The latest news, articles, and resources will be sent to your inbox weekly.</P>
+                <h4 class="font-bold">SUBSCRIBE TO OUR NEWSLETTER</h4>
+                <P class="text-sm text-gray-400 mb-3">The latest news, articles, and resources will be sent to your inbox weekly.</P>
                 <div class="form">
-                    <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
-  <legend class="fieldset-legend">Settings</legend>
+    <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-2">
   <div class="join">
-    <input type="text" class="input join-item" placeholder="Product name" />
-    <button class="btn join-item">save</button>
+    <input type="email" class="input join-item text-gray-600" placeholder="Enter Your Email" />
+    <button class="btn btn-primary join-item">Subscribe</button>
   </div>
 </fieldset>
                 </div>
             </div>
         </div>
+    
+        <div class="pt-8 flex justify-between">
+            <div>
+                <p class="text-xs text-gray-400">©2025 SwiftCart, Inc. All rights reserved.</p>
+            </div>
+            <div class="flex justify-between gap-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    
     </footer>
 
     <script src="script/index.js"></script>
