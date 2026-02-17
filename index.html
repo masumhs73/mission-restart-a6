@@ -6,11 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SwiftCart</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"> </script>
+    <script src="https://kit.fontawesome.com/9a2690126f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <h1>Let's build SwiftCart</h1>
+    <!-- header section -->
+     
+    <header class="bg-gray-50">
+        <nav class="w-11/12 mx-auto flex justify-between py-3 ">
+            <div class="font-bold text-2xl text-blue-600">SwiftCart</div>
+            <div class="hidden md:block">
+                <ul class="flex gap-5">
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section>
+    <div class="hero min-h-screen" style="background-image: url('assets/banner-image.png');">
+  <div class="hero-overlay"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-lg">
+      <h1 class="mb-5 text-5xl font-bold">Best Collection For You</h1>
+      <p class="mb-5 ">Discover the latest trends in fashion, electronics and more. Shop with confidence and style at SwiftCart.</p>
+      <button class="btn btn-primary">Shop Now</button>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- Choose Us Section -->
+
+    <section class="p-20 bg-gray-50">
+        <div class="text-center">
+            <h2 class="mb-5 text-3xl font-bold">Why Choose Us</h2>
+            <p class="mb-20">We provide the best shopping experience with top-notch service.</p>
+        </div>
+        <div class="w-10/12 mx-auto grid grid-cols-4 justify-center gap-6 relative">
+            <div class="rounded-lg shadow-md bg-white p-5">
+                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-truck"></i></div>
+                <div class="choose-text">
+                    <h3 class="text-lg font-bold mt-10">Fast Delivery</h3>
+                    <p class="my-2 text-gray-600">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-white p-5">
+                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-headphones"></i></div>
+                <div class="choose-text">
+                    <h3 class="text-lg font-bold mt-10">24/7 Support</h3>
+                    <p class="my-2 text-gray-600">Our support team is available around the clock to assist you.</p>
+                </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-white p-5">
+                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-shield"></i></div>
+                <div class="choose-text">
+                    <h3 class="text-lg font-bold mt-10">Secure Payment</h3>
+                    <p class="my-2 text-gray-600">Experience safe and secure transactions with our encrypted payment systems.</p>
+                </div>
+            </div>
+            <div class="rounded-lg shadow-md bg-white p-5">
+                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-arrows-rotate"></i></div>
+                <div class="choose-text">
+                    <h3 class="text-lg font-bold mt-10">Easy Returns</h3>
+                    <p class="my-2 text-gray-600">Not satisfied? Return your products easily within 30 days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script/index.js"></script>
 </body>
 
 </html>
