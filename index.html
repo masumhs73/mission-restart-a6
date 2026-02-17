@@ -18,9 +18,9 @@
 
 <body>
     <!-- header section -->
-     
+
     <header class="bg-gray-50">
-        <nav class="w-11/12 mx-auto flex justify-between py-3 ">
+        <nav class="w-10/12 mx-auto flex justify-between py-3 ">
             <div class="font-bold text-2xl text-blue-600">SwiftCart</div>
             <div class="hidden md:block">
                 <ul class="flex gap-5">
@@ -39,54 +39,143 @@
     <!-- Hero Section -->
 
     <section>
-    <div class="hero min-h-screen" style="background-image: url('assets/banner-image.png');">
-  <div class="hero-overlay"></div>
-  <div class="hero-content text-neutral-content text-center">
-    <div class="max-w-lg">
-      <h1 class="mb-5 text-5xl font-bold">Best Collection For You</h1>
-      <p class="mb-5 ">Discover the latest trends in fashion, electronics and more. Shop with confidence and style at SwiftCart.</p>
-      <button class="btn btn-primary">Shop Now</button>
-    </div>
-  </div>
-</div>
+        <div class="hero min-h-screen" style="background-image: url('assets/banner-image.png');">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-lg">
+                    <h1 class="mb-5 text-5xl font-bold">Best Collection For You</h1>
+                    <p class="mb-5 ">Discover the latest trends in fashion, electronics and more. Shop with confidence
+                        and style at SwiftCart.</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Choose Us Section -->
 
-    <section class="p-20 bg-gray-50">
-        <div class="text-center">
+    <section class="p-10 md:p-20 bg-gray-50">
+        <div class="text-center mb-20">
             <h2 class="mb-5 text-3xl font-bold">Why Choose Us</h2>
-            <p class="mb-20">We provide the best shopping experience with top-notch service.</p>
+            <p class="text-gray-600">We provide the best shopping experience with top-notch service.</p>
         </div>
-        <div class="w-10/12 mx-auto grid grid-cols-4 justify-center gap-6 relative">
-            <div class="rounded-lg shadow-md bg-white p-5">
-                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-truck"></i></div>
+        <div class="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-12 lg:gap-6">
+            <div class="relative rounded-lg shadow-md bg-white p-5">
+                <div><i
+                        class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-gray-50 -top-7 fa-solid fa-truck text-blue-600"></i>
+                </div>
                 <div class="choose-text">
                     <h3 class="text-lg font-bold mt-10">Fast Delivery</h3>
-                    <p class="my-2 text-gray-600">Get your orders delivered to your doorstep quickly and efficiently.</p>
+                    <p class="my-2 text-gray-600">Get your orders delivered to your doorstep quickly and efficiently.
+                    </p>
                 </div>
             </div>
-            <div class="rounded-lg shadow-md bg-white p-5">
-                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-headphones"></i></div>
+            <div class="relative rounded-lg shadow-md bg-white p-5">
+                <div><i
+                        class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-gray-50 -top-7 fa-solid fa-headphones text-blue-600"></i>
+                </div>
                 <div class="choose-text">
                     <h3 class="text-lg font-bold mt-10">24/7 Support</h3>
                     <p class="my-2 text-gray-600">Our support team is available around the clock to assist you.</p>
                 </div>
             </div>
-            <div class="rounded-lg shadow-md bg-white p-5">
-                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-shield"></i></div>
+            <div class="relative rounded-lg shadow-md bg-white p-5">
+                <div><i
+                        class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-gray-50 -top-7 fa-solid fa-shield text-blue-600"></i>
+                </div>
                 <div class="choose-text">
                     <h3 class="text-lg font-bold mt-10">Secure Payment</h3>
-                    <p class="my-2 text-gray-600">Experience safe and secure transactions with our encrypted payment systems.</p>
+                    <p class="my-2 text-gray-600">Experience safe and secure transactions with our encrypted payment
+                        systems.</p>
                 </div>
             </div>
-            <div class="rounded-lg shadow-md bg-white p-5">
-                <div><i class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-green-300 -top-7 fa-solid fa-arrows-rotate"></i></div>
+            <div class="relative rounded-lg shadow-md bg-white p-5">
+                <div><i
+                        class="absolute rounded-lg p-4 border-4 shadow-md text-2xl border-white bg-gray-50 -top-7 fa-solid fa-arrows-rotate text-blue-600"></i>
+                </div>
                 <div class="choose-text">
                     <h3 class="text-lg font-bold mt-10">Easy Returns</h3>
                     <p class="my-2 text-gray-600">Not satisfied? Return your products easily within 30 days.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Trending Now Section -->
+
+    <section class="w-10/12 mx-auto my-20 ">
+        <div>
+            <h3 class="mb-5 text-3xl font-bold">Trending Now</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="border-2 border-gray-300 rounded-lg">
+                <div class="bg-gray-300 w-full h-auto flex justify-center p-12">
+                    <img src="assets/product2.png" alt="">
+                </div>
+                <div class="p-4">
+                    <div class="flex justify-between">
+                        <p class="product-category">Men's Clothing</p>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-star"></i>
+                            <p>3.9(120)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="product-name text-xl font-bold">Rookies No. 1 Backpack, Fits 15 Laptops</h3>
+                        <p>$109.95</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-info"><i class="fa-solid fa-eye"></i> Details</button>
+                        <button class="btn btn-primary"><i class="fa-solid fa-cart-arrow-down"></i></i>Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg">
+                <div class="bg-gray-300 w-full h-auto flex justify-center p-12">
+                    <img src="assets/product2.png" alt="">
+                </div>
+                <div class="p-4">
+                    <div class="flex justify-between">
+                        <p class="product-category">Men's Clothing</p>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-star"></i>
+                            <p>3.9(120)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="product-name text-xl font-bold">Rookies No. 1 Backpack, Fits 15 Laptops</h3>
+                        <p>$109.95</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-info"><i class="fa-solid fa-eye"></i> Details</button>
+                        <button class="btn btn-primary"><i class="fa-solid fa-cart-arrow-down"></i></i>Add</button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg">
+                <div class="bg-gray-300 w-full h-auto flex justify-center p-12">
+                    <img src="assets/product2.png" alt="">
+                </div>
+                <div class="p-4">
+                    <div class="flex justify-between">
+                        <p class="product-category">Men's Clothing</p>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-star"></i>
+                            <p>3.9(120)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="product-name text-xl font-bold">Rookies No. 1 Backpack, Fits 15 Laptops</h3>
+                        <p>$109.95</p>
+                    </div>
+                    <div>
+                        <button class="btn btn-info"><i class="fa-solid fa-eye"></i> Details</button>
+                        <button class="btn btn-primary"><i class="fa-solid fa-cart-arrow-down"></i></i>Add</button>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </section>
 
